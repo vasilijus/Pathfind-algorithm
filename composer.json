@@ -1,0 +1,18 @@
+{
+    "name": "sergejvasiljev/units",
+    "autoload": {
+        "psr-4": {
+            "Sergejvasiljev\\Units\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergej V",
+            "email": "vasiliokas@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "mockery/mockery": "dev-master"
+    }
+}
