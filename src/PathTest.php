@@ -26,7 +26,7 @@ final class PathTest extends TestCase
 
         $modelMock = \Mockery::mock('Model');
         $modelMock->shouldReceive('init')
-            ->with($A,$B, $grid)
+            ->with($A, $B, $grid)
             ->once();
 
         $service = new PathFind($A, $B, $grid);
